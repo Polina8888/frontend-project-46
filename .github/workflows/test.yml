@@ -1,0 +1,11 @@
+name: test
+on: push
+jobs:
+  build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: npx jest
+    uses: codeclimate-action@v2.7.5
+    env:
+      CODECLIMATE_ID: ${{ CODECLIMATE_ID }}
+    run: npx jest
