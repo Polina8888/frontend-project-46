@@ -27,7 +27,7 @@ const generateDiff = (obj1, obj2) => {
         return result;
     });
     const arr = _.toPairs(result);
-    const newArr = arr.map((item) => item.join(' : ')).join('\n  ');
+    const newArr = arr.map((item) => item.join(': ')).join('\n  ');
     return `{\n  ${newArr}\n}`;
 };
 export default (filepath1, filepath2) => {
