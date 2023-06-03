@@ -8,7 +8,7 @@
   "description": "[![Actions Status](https://github.com/Polina8888/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Polina8888/frontend-project-46/actions)",
   "main": "bin/gendiff.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --bail --coverage"
   },
   "author": "polina",
   "license": "ISC",
@@ -18,8 +18,10 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "eslint": "^8.39.0",
+    "@jest/globals": "^29.5.0",
+    "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5"
+    "eslint-plugin-import": "^2.27.5",
+    "jest": "^29.5.0"
   }
 }
