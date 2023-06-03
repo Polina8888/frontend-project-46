@@ -1,8 +1,0 @@
-name: linter
-on: push
-jobs:
-  my-job:
-   runs-on: ubuntu-latest
-   steps:
-    - name: lint
-      run: make lint
