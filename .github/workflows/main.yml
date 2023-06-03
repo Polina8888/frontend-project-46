@@ -1,0 +1,15 @@
+name: my own check
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: make install
+      - run: make lint
+      - run: make test
+
+      - name: testing
+        uses: paambaati/codeclimate-action@v3.0.0
+        with:
+          CODECLIMATE_ID: ${{ secrets.CODECLIMATE_ID }}
