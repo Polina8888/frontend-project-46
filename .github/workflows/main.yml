@@ -11,5 +11,5 @@ jobs:
 
       - name: testing
         uses: paambaati/codeclimate-action@v3.0.0
-        with:
-          CODECLIMATE_ID: ${{ secrets.CODECLIMATE_ID }}
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_ID }}
