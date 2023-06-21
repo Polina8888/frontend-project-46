@@ -4,4 +4,6 @@
 [![Maintainability](https://badgen.net/codeclimate/maintainability-percentage/codeclimate/codeclimate)](https://codeclimate.com/github/Polina8888/frontend-project-46/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/cd605c9a768d6f850297/test_coverage)](https://codeclimate.com/github/Polina8888/frontend-project-46/test_coverage)
 
-[![asciicast](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff.svg)](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff)
+[![Gendiff plain yml, json formats](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff.svg)](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff)
+
+[![Recursive comparison](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW.svg)](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW)
