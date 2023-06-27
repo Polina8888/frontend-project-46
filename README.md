@@ -7,3 +7,5 @@
 [![Gendiff plain yml, json formats](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff.svg)](https://asciinema.org/a/t1VfpSQ7inoMSa7QRJv7mi0Ff)
 
 [![Recursive comparison](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW.svg)](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW)
+
+[![Plain format](https://asciinema.org/a/PNFxzkBhorg6Qo7uyMVxsceJ8.svg)](https://asciinema.org/a/PNFxzkBhorg6Qo7uyMVxsceJ8)
