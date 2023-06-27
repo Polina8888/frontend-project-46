@@ -9,3 +9,5 @@
 [![Recursive comparison](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW.svg)](https://asciinema.org/a/TOjwS6wNj84MQlUqdqdAED8SW)
 
 [![Plain format](https://asciinema.org/a/PNFxzkBhorg6Qo7uyMVxsceJ8.svg)](https://asciinema.org/a/PNFxzkBhorg6Qo7uyMVxsceJ8)
+
+[![JSON format](https://asciinema.org/a/kqGNafk1eobrQrgXAW6qFYJO0.svg)](https://asciinema.org/a/kqGNafk1eobrQrgXAW6qFYJO0)
