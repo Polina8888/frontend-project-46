@@ -5,7 +5,7 @@
     "gendiff": "bin/gendiff.js"
   },
   "type": "module",
-  "description": "[![Actions Status](https://github.com/Polina8888/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Polina8888/frontend-project-46/actions)",
+  "description": "Program compares 2 files of .json or .yaml formats and displays the differences between them",
   "main": "src/index.js",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --bail --coverage"
