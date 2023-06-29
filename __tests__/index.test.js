@@ -37,7 +37,7 @@ test('json check plain', () => {
   expect(diff).toBe(result);
 });
 
-test('yml check stylish', () => {
+test('yml check plain', () => {
   const file1Path = getFixturePath('file1.yml');
   const file2Path = getFixturePath('file2.yml');
   const resultPath = getFixturePath('result.plain.txt');
