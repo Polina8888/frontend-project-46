@@ -3,13 +3,13 @@ import getPlain from './plain.js';
 import getJSON from './json.js';
 
 const getFormatted = (diff, format) => {
-    switch (format) {
+  switch (format) {
     case 'plain':
-        return getPlain(diff);
+      return getPlain(diff);
     case 'json':
-        return getJSON(diff);
+      return getJSON(diff);
     default:
-        return getStylish(diff);
-    }
+      return getStylish(diff);
+  }
 };
 export default getFormatted;
