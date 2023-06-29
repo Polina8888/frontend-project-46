@@ -8,8 +8,10 @@ const getFormatted = (diff, format) => {
       return getPlain(diff);
     case 'json':
       return getJSON(diff);
-    default:
+    case 'stylish':
       return getStylish(diff);
+    default:
+      throw new Error(`Invalid format - ${format}`);
   }
 };
 export default getFormatted;
