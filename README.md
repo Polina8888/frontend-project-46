@@ -8,6 +8,10 @@
 
 Program compares 2 files of .json or .yaml formats and displays the differences between them
 
+### System Requirements
+
+    nodejs, linux, makefile
+    
 ### Setup
 
     git clone git@github.com:Polina8888/frontend-project-46.git

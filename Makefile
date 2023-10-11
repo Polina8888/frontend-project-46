@@ -8,7 +8,7 @@ lint-fix:
 	npx eslint --fix .
 
 publish:
-	npm publish
+	npm publish --dry-run
 
 test:
 	npm test
