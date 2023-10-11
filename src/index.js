@@ -7,11 +7,13 @@ import parsers from './parsers.js';
 import generateDiff from './gendiff.js';
 import getFormatted from './formatters/index.js';
 
-const getAbsoluteFilePath = (filepath) => path.resolve(cwd(), '__fixtures__', filepath);
+const getFilePath = (filePath) => (filePath.includes('fixtures')
+  ? path.resolve(cwd(), filePath)
+  : path.resolve(cwd(), `__fixtures__/${filePath}`));
 
 export default (filepath1, filepath2, format = 'stylish') => {
-  const absoluteFilepath1 = getAbsoluteFilePath(filepath1);
-  const absoluteFilepath2 = getAbsoluteFilePath(filepath2);
+  const absoluteFilepath1 = getFilePath(filepath1);
+  const absoluteFilepath2 = getFilePath(filepath2);
   const formatOfFile = path.extname(filepath1);
   const parse = parsers(formatOfFile);
   const data1 = parse(readFileSync(absoluteFilepath1, 'utf-8'));
