@@ -3,8 +3,8 @@ import _ from 'lodash';
 const generateDiff = (obj1, obj2) => {
   const keys1 = Object.keys(obj1);
   const keys2 = Object.keys(obj2);
-  const keys = _.sortBy(_.union(keys1, keys2));
-  const diff = keys.map((key) => {
+  const sortedKeys = _.sortBy(_.union(keys1, keys2));
+  const diff = sortedKeys.map((key) => {
     if (_.isObject(obj1[key]) && _.isObject(obj2[key])) {
       return { key, children: generateDiff(obj1[key], obj2[key]), status: 'nested' };
     } if (!Object.hasOwn(obj1, key)) {
